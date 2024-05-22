@@ -9,12 +9,21 @@ The experiments in this paper are based on the codes below:
 > calc_attention.py: attention-based input attribution method.
 
 > calc_perplexity.py: calculate token-level and document-level perplexity by BERT.
+
 > cacl_rel.py: calculate estimated relevance scores of retrieval models at top@k.
+
 > calc_rel_pos: select all relevant query-document pairs.
+
 > check_language_modeling.py: estimate the language modeling ability for each retriever.
+
 > config.py: experiment settings or hyperparamters.
+
 > find_relation_temp_ppl.py:  evaluate the correlationship between document perplexity and estimated relevance scores with varying temperatures.
+
 > human_eval.py: sample (query-human\_document-LLM\_document) triples to receive human evaluation and aggregate evaluation results.
+
 > integrated_gradients.py: integrated gradients input attribution method.
+
 > model.py: build retrievers, evaluate their accuracy and source bias, and de-bias via CDC.
+
 > two_stage_reg.py: evaluate the magnitude and significance of causal effect of document perplexity on estimated relevance scores.
