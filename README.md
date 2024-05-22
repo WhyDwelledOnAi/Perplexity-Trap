@@ -20,8 +20,6 @@ The experiments in this paper are based on the codes below:
 
 > find_relation_temp_ppl.py:  evaluate the correlationship between document perplexity and estimated relevance scores with varying temperatures.
 
-> human_eval.py: sample (query-human\_document-LLM\_document) triples to receive human evaluation and aggregate evaluation results.
-
 > integrated_gradients.py: integrated gradients input attribution method.
 
 > model.py: build retrievers, evaluate their accuracy and source bias, and de-bias via CDC.
