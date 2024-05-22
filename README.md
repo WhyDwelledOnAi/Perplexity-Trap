@@ -6,8 +6,9 @@ Previous studies have found that PLM-based retrieval models exhibit a preference
 
 ## File Description
 The experiments in this paper are based on the codes below: 
-> calc_attention.py: attention-based input attribution method.\\
-> calc_perplexity.py: calculate token-level and document-level perplexity by BERT.\\
+> calc_attention.py: attention-based input attribution method.
+
+> calc_perplexity.py: calculate token-level and document-level perplexity by BERT.
 > cacl_rel.py: calculate estimated relevance scores of retrieval models at top@k.
 > calc_rel_pos: select all relevant query-document pairs.
 > check_language_modeling.py: estimate the language modeling ability for each retriever.
