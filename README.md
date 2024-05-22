@@ -1,4 +1,4 @@
-# Perplexity-Trap
+# Perplexity-Trap: PLM-Based Retrievers Overrate Low Perplexity Documents
 
 The implementation of the paper: "Perplexity Trap: PLM-Based Retrievers Overrate Low Perplexity Documents"
 
