@@ -6,7 +6,6 @@ Previous studies have found that PLM-based retrieval models exhibit a preference
 
 ## File Description
 The experiments in this paper are based on the codes below: 
-> calc_attention.py: attention-based input attribution method.
 
 > calc_perplexity.py: calculate token-level and document-level perplexity by BERT.
 
@@ -19,8 +18,6 @@ The experiments in this paper are based on the codes below:
 > config.py: experiment settings or hyperparamters.
 
 > find_relation_temp_ppl.py:  evaluate the correlationship between document perplexity and estimated relevance scores with varying temperatures.
-
-> integrated_gradients.py: integrated gradients input attribution method.
 
 > model.py: build retrievers, evaluate their accuracy and source bias, and de-bias via CDC.
 
